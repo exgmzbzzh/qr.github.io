@@ -1,0 +1,243 @@
+
+
+body {
+	color-scheme: light;
+	position: relative;
+	background-image: url(https://img.z4a.net/images/2025/08/02/270a95c08aee2aeef.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	flex-direction: column;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-clip: padding-box;
+
+}
+
+.zf01 {
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+	opacity: 100%;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.zf02 {
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+	opacity: 100%;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+
+.zf0 {
+	top: 90%;
+	position: relative;
+	opacity: 0%;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #c2c2c2;
+	margin: 1.8rem 0 0 0;
+	transition-property: top, opacity, color;
+	transition-duration: 1s;
+	/* transition-delay: 5500ms; */
+	opacity: 0%;
+}
+
+.zf1 {
+	top: 77%;
+	position: relative;
+	opacity: 0%;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #fad3fa;
+	margin: 1.8rem 0 0 0;
+	transition-property: top, opacity, color;
+	transition-duration: 1s;
+	/* transition-delay: 7300ms; */
+	opacity: 0%;
+}
+
+.zf2 {
+	top: 64%;
+	position: relative;
+	opacity: 0%;
+	;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #fad3fa;
+	margin: 1.8rem 0 0 0;
+	transition-property: top, opacity, color;
+	transition-duration: 1s;
+	/* transition-delay: 8300ms; */
+	opacity: 0%;
+}
+
+.zf3 {
+	top: 51%;
+	position: relative;
+	opacity: 0%;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #fad3fa;
+	margin: 1.8rem 0 0 0;
+	transition-property: top, opacity, color;
+	transition-duration: 1s;
+	/* transition-delay: 9300ms; */
+	opacity: 0%;
+}
+
+.zf4 {
+	top: 38%;
+	position: relative;
+	opacity: 0%;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #fad3fa;
+	margin: 1.8rem 0 0 0;
+	transition-property: top, opacity, color;
+	transition-duration: 1s;
+	/* transition-delay: 10300ms; */
+	opacity: 0%;
+}
+
+.sp1 {
+	font-weight: normal;
+	color: #fad3fa;
+	opacity: 0%;
+	transition-property: opacity, color;
+	transition-duration: 1s;
+	transition-delay: 16300ms;
+	line-height: 3.9rem;
+	left: 100%;
+}
+
+
+.bot {
+	position: absolute;
+	z-index: 9999;
+}
+
+.xf {
+	cursor: pointer;
+	opacity: 100%;
+	width: 5rem;
+	height: auto;
+	transition: all 1s;
+	/* transition-property: opacity; */
+	transition-duration: 0.8s;
+	opacity: 100%
+}
+
+.xf:hover {
+	transform: scale(1.1);
+}
+
+
+
+.title{
+	color: rgb(255, 120, 242);
+	font-weight: bold;
+}
+
+
+
+
+.icp {
+	position: relative;
+	color: #e1e1e1;
+	font-weight: bold;
+	font-size: 0.8rem;
+	text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-thickness: initial;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+}
+
+.big {
+	display: none;
+	position: relative;
+	font-size: 3rem;
+	font-weight: bolder;
+
+}
+
+.yh {
+	opacity: 0%;
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	transition-property: opacity;
+	transition-duration: 2s;
+}
+
+.c1 {
+	color: #e1e1e1;
+	font-weight: bold;
+	font-size: 0.8rem;
+	text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-thickness: initial;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+	line-height: 2rem;
+}
+
+.srcimg {
+	overflow: hidden;
+}
+
+.imgt {
+	left: -220%;
+	width: 36rem;
+	transition-property: left, opacity, width, top;
+	transition-duration: 1.2s;
+}
+
+.timeup {
+    background-image: url(./img/AI.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0%;
+	transition-property: left, opacity, width, top;
+	transition-duration: 1.2s;
+	/* background-color:rgb(255,0,0,0.3); */
+	
+}
+.timeup0 {
+    background-image: url(./img/AI.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    flex-wrap: wrap;
+	display: none;
+	opacity: 0%;
+	top:-20%;
+	transition-property: left, opacity, width, top;
+	transition-duration: 1.2s;
+}
+.clock span {
+	border-radius: 8px;
+	font-size: 1.5rem;
+	background-color: #303430;
+	line-height: 1.9rem;
+    margin: 1px 1px 1px 1px;
+}
+
+.ii{
+    color: #e5e5e5;
+    font-size: 1rem;
+}
